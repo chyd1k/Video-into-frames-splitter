@@ -15,7 +15,7 @@ def vid_into_frames(capture, every_x_frames):
             exit()
 
 def main():
-    capture = cv2.VideoCapture('m_k.mp4')
+    capture = cv2.VideoCapture('m_krummer.mp4')
     # A value that determines how often the frame from the video will be saved.
     # Place 0 - if you want to get every frame from the video.
     every_x_frames = 10
